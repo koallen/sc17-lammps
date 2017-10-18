@@ -1,0 +1,6 @@
+benchmarks/lammps/results/
+benchmarks/lammps/results2/
+benchmarks/lammps/results3/
+benchmarks/lammps/acc-single
+benchmarks/lammps/acc-double
+benchmarks/lammps/acc-mixed
