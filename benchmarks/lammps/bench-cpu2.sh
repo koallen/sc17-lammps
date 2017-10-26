@@ -3,6 +3,8 @@
 module purge
 module load ParallelStudio
 
+mkdir -p results2
+
 h=`hostname -s`
 d=../../machines/$1/lammps-10Mar16/src
 
