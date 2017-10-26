@@ -1,9 +1,7 @@
-#!/usr/bin/zsh
+#!/bin/bash
 
-source /etc/profile.d/lmod.sh
 module purge
-module load GCC
-source /opt/intel2018/compilers_and_libraries/linux/bin/compilervars.sh intel64
+module load ParallelStudio
 
 h=`hostname -s`
 d=../../machines/$1/lammps-10Mar16/src

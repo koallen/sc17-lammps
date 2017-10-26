@@ -1,11 +1,8 @@
-#!/usr/bin/zsh
-
+#!/bin/bash
 
 # load environment
-source /etc/profile.d/lmod.sh
 module purge
-module load GCC
-source /opt/intel2018/compilers_and_libraries/linux/bin/compilervars.sh intel64
+module load ParallelStudio
 
 set -o verbose
 rm -rf lammps-10Mar16
