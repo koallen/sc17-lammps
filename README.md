@@ -6,3 +6,4 @@
 - Update `Makefile.intel_cpu` for compatability with Intel compiler 2018
 - Add build script for `sc17-bw` architecture
 - Update `accuracy.sh` and `bench_cpu*.sh` scripts
+- Apply upstream fix on NVE integrator
